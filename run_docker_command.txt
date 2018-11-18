@@ -1,0 +1,8 @@
+1.docker run -d --name web -p 8080:80 joeychu/joey_flask
+
+run：標準的Docker建立Container並執行指令
+-d：run指令的無數值參數，背景執行。
+--name web：run指令的文字參數，指定這個Container的名字為web。
+-p 8080:80：run指令的數值參數，把主機的8080通訊埠所有流量轉發到web這個Container的80通訊埠。
+joeychu/joey_flask：run指令的文字參數，使用joeychu/joey_flask來填入web這個Container。
+ Docker用指令加參數就可以完成99%的動作，非常方便。

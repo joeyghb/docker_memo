@@ -1,0 +1,8 @@
+#modify contaoiner
+1.pull a image containerA
+2.docker run containerA
+3.into containerA 
+4.modify file
+5.docker commit (docker commit -m="This a test image" containerA_name new_containerA_name)
+6.docker stop containerA
+7.docker run new_containerA

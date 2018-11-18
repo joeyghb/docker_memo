@@ -1,0 +1,5 @@
+1.tag image before pushing
+$docker tag firstimage YOUR_DOCKERHUB_NAME/firstimage
+
+2.docker push
+$docker push YOUR_DOCKERHUB_NAME/firstimage
