@@ -1,0 +1,1 @@
+docker build -t joeychu/flask .   # Will be named joeychu/flask
